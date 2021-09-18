@@ -1,0 +1,72 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.header{
+	display: flex;
+    width: 100%;
+	font-size: 15px;
+    font-weight: 400;
+}
+
+
+.elements{
+    flex: 1;
+    margin: 10px;
+}
+
+.elements i{
+    font-size: 16px !important;
+}
+
+.header:first-child{
+    margin-right: 20px;
+}
+
+
+.header i{
+	font-size: 30px;
+}
+
+.header .line{
+	border-right: 1px white solid;
+}
+
+
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: rgb(26, 36, 45);
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        background:rgb(26, 36, 45,0.8);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
