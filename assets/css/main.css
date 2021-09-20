@@ -40,8 +40,11 @@ body{
 /*search box css start here*/
 .search-sec{
     padding: 2rem;
-    
+    position: relative;
+    z-index: 1000;
 }
+
+
 .search-slt{
     display: block;
     width: 100%;
@@ -98,7 +101,16 @@ body{
 
 }
 
-@media (max-width: 640px){
+@media (max-width: 420px){
+    
+    #myCarousel img{
+        margin: 0;
+        width: 80% !important;
+    }
+
+}
+
+@media (max-width: 767px){
     .inner-items{
       margin: 0px !important; 
     }
@@ -113,7 +125,7 @@ body{
 
     #myCarousel img{
         margin: 0;
-        width: 80%;
+        width: 40%;
     }
 
     .inner-items:first-child{
