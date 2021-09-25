@@ -679,8 +679,84 @@ a[data-toggle="collapse"]{
   height: 200px;
 }
 
-  .nice-select.wide {
-    width: 100%; }
-    .nice-select.wide .list {
-      left: 0 !important;
-      right: 0 !important; }
+.nice-select.wide {
+    width: 100%;
+}
+
+.nice-select.wide .list {
+    left: 0 !important;
+    right: 0 !important; 
+}
+
+.details-sidebar .agent-inner {
+    background-color: #fff;
+    color: #999;
+    border-radius: 4px;
+    padding: 32px;
+    transition: .25s
+}
+
+.details-sidebar .agent-inner .agent-title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.details-sidebar .agent-inner .agent-title .agent-photo {
+    float: left;
+    display: block
+}
+
+.details-sidebar .agent-inner .agent-title .agent-photo img {
+    border-radius: 50%;
+    border: 2px solid rgba(52, 58, 64, 1);
+    max-width: 72px
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details {
+    margin-left: 92px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details h3 {
+    font-size: 16px
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details h3 a {
+    color: #333;
+    margin: 0 0 6px
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details span {
+    color: #888
+}
+
+.details-sidebar .agent-inner .agent-title .agent-details span i {
+    margin-right: 5px
+}
+
+.details-sidebar .agent-inner .form-control {
+    margin-bottom: 20px
+}
+
+.details-sidebar .widget {
+    box-shadow: 0 0 10px rgba(52, 58, 64, .23);
+    margin-bottom: 60px
+}
+
+.details-sidebar .widget .widget-title {
+    padding: 17px 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #f1f1f1
+}
+
+
+
+    
