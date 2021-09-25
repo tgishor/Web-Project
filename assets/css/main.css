@@ -24,6 +24,11 @@ h2{
 body{
     margin: 0;
 }
+
+.form-control:focus {
+  box-shadow: none;
+}
+
 .header{
 	display: flex;
     width: 100%;
@@ -102,7 +107,9 @@ body{
     }
 }
 
-
+.cat-bg{
+    background: none;
+}
 
 
 
@@ -641,3 +648,39 @@ a[data-toggle="collapse"]{
 #category-pg .product-grid4 .product-image4{
    height: 150px;
 }
+
+.pro-con{
+    max-width: 750px;
+}
+
+
+
+
+
+.ad-post form fieldset input:focus {
+  outline: 0;
+}
+
+.ad-post form fieldset label {
+  margin-bottom: 0;
+}
+
+.ad-post .choose-file {
+  cursor: pointer;
+  display: block;
+  border: 3px dashed #eaedef;
+}
+
+.ad-post .choose-file .select-files {
+  border-radius: 45px;
+}
+
+.ad-post textarea {
+  height: 200px;
+}
+
+  .nice-select.wide {
+    width: 100%; }
+    .nice-select.wide .list {
+      left: 0 !important;
+      right: 0 !important; }
